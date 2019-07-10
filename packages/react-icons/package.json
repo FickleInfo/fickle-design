@@ -1,0 +1,31 @@
+{
+  "name": "react-icons",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A React JS npm package to import and use Icons from different Icons provider with single installation.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir  build --copy-files "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recraftstudio/dummy-react-npm-module.git"
+  },
+  "author": "FickleInfo Pvt. Ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recraftstudio/dummy-react-npm-module/issues"
+  },
+  "homepage": "https://github.com/recraftstudio/dummy-react-npm-module#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
